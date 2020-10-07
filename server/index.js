@@ -13,6 +13,7 @@ connectAndSeedDb();
 
 // normally these would be in there own routes
 app.get("/health-check", healthCheck);
+
 app.get('/insights/spend-by', spend);
 app.get('/insights/income-and-outgoings:category', incomeAndOutGoings);
 app.get('/insights/bill-tracking', billTracking);
